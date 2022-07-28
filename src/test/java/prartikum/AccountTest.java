@@ -11,8 +11,8 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class AccountTest {
 
-    private String name;
-    private Boolean expectedName;
+    private final String name;
+    private final Boolean expectedName;
 
     public AccountTest(String name, boolean expectedName) {
         this.name = name;
